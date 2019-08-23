@@ -172,9 +172,8 @@ Query
   }
   .flex-container {
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     justify-content: center;
-    margin-top: 20px;
     background-color: rgb(153, 153, 159);
   }
   .box {
