@@ -146,7 +146,7 @@ figure figcaption h2 {
 Query
 --------------------------------------------------------------------
 */
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 1000px) {
   ul {
     display: flex;
     flex-direction: column;
@@ -165,8 +165,6 @@ Query
    background-color: grey;
    width: 100%
   }
-}
-@media only screen and (max-width: 900px) {
   .pathfinder6 {
     height: 100%;
     border: 8px solid black;
