@@ -1,7 +1,6 @@
-html {
+body {
   background-color: beige;
 }
-
 ul {
   display: flex;
   list-style: none;
