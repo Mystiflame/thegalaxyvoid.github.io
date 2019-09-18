@@ -1,5 +1,5 @@
 html {
-  background-color: #000000;
+  background-color: beige;
 }
 ul {
   display: flex;
@@ -26,9 +26,6 @@ li:hover {
 }
 li a:hover {
   color: #FFFFFF;
-}
-body {
-  background-color: beige;
 }
 @media only screen and (max-width: 1000px) {
 ul {
