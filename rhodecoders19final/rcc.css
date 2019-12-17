@@ -1,0 +1,33 @@
+/* 
+Universal Classes
+--------------------------------------------------------------------- 
+*/
+body {
+  background-color: rgb(223, 170, 170);
+  font-family: "PT Sans Narrow", monospace;
+  margin: 0 auto;
+}
+a {
+  display: grid;
+}
+/*
+Header Classes
+----------------------------------------------------------------------
+*/
+header {
+  border: 8px solid black;
+  border-block-start: 50px;
+  border-block-end: 50px;
+  bor
+}
+header h1 {
+  text-align: center;
+  font-variant: small-caps;
+}
+header p {
+  text-align: center;
+  font-weight: bolder;
+}
+.long-box {
+  background-image: 
+}
