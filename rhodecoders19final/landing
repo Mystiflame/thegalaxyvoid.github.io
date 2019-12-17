@@ -3,6 +3,19 @@
   <head>
   <meta charset="utf-8">
   <link rel="stylesheet" type="text/css" href="rcc.css">
+  <link rel="shortcut icon" href="https://thegalaxyvoid.github.io/dpwmicon.svg">
   <link href="https://fonts.googleapis.com/css?family=PT+Sans+Narrow&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Archivo+Narrow&display=swap" rel="stylesheet">
+  <title>Don't Play with Me - Home</title>
   </head>
+    <body>
+    <!--
+    Header
+    -->
+    <figure>
+    <figcaption class="header">
+    <h1>Don't Play with Me.</h1>
+    </figcaption>
+    </figure>
+    </body>
   </html>
