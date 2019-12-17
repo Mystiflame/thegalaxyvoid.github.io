@@ -12,10 +12,11 @@
     <!--
     Header
     -->
-    <figure>
-    <figcaption class="header">
+    <header>
+    <div class="long-box">
     <h1>Don't Play with Me.</h1>
-    </figcaption>
-    </figure>
+    <p>Video Game Extraordinare</p>
+    </div>
+    </header>
     </body>
   </html>
