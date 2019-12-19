@@ -2,32 +2,147 @@
 Universal Classes
 --------------------------------------------------------------------- 
 */
+* {
+  box-sizing: border-box;
+}
 body {
-  background-color: rgb(223, 170, 170);
+  background-color: rgb(82, 113, 201);
   font-family: "PT Sans Narrow", monospace;
   margin: 0 auto;
-}
-a {
-  display: grid;
+  padding: 0 auto;
 }
 /*
 Header Classes
 ----------------------------------------------------------------------
 */
 header {
-  border: 8px solid black;
-  border-block-start: 50px;
-  border-block-end: 50px;
-  bor
-}
-header h1 {
+  display: grid;
+  border: 3px solid black;
+  height: 120px;
+  grid-template-columns: 20% 1fr 1fr 1fr 1fr 20%;
+  grid-template-rows: 50% 50%;
+  background-color: rgba(75, 184, 211, 0.8);
   text-align: center;
-  font-variant: small-caps;
+  margin: auto 0;
 }
-header p {
-  text-align: center;
+.box {
+  display: flex;
+  border: 3px solid black;
+  background-color: rgb(101, 158, 224);
+  align-items: center;
+  justify-content: center;
+}
+.gr1 {
+  grid-area: 1 / 1 / 3 / 2;
+  width: 100%;
+}
+.gr2 {
+  grid-area: 1 / 2 / 2 / 3 ;
+  width: 100%;
+}
+.gr3 {
+  grid-area: 2 / 2 / 2 / 3 ;
+  width: 100%;
+}
+.gr4 {
+  grid-area: 1 / 3 / 2 / 4 ;
+  width: 100%;
+}
+.gr5 {
+  grid-area: 2 / 3 / 2 / 4 ;
+  width: 100%;
+}
+.gr6 {
+  grid-area: 1 / 4 / 2 / 5 ;
+  width: 100%;
+}
+.gr7 {
+  grid-area: 2 / 4 / 2 / 5 ;
+  width: 100%;
+}
+.gr8 {
+  grid-area: 1 / 5 / 2 / 6 ;
+  width: 100%;
+}
+.gr9 {
+  grid-area: 2 / 5 / 2 / 6 ;
+  width: 100%;
+}
+.gr10 {
+  grid-area: 1 / 6 / 3 / 7 ;
+  width: 100%;
+}
+img {
+  height: 150px;
+}
+.navText {
+  color: black;
+  font-size: 1.5em;
+  font-family: 'PT Sans Narrow', monospace;
   font-weight: bolder;
 }
-.long-box {
-  background-image: 
+.gr2:hover {
+  background-color: green;
+  transition: 1s;
+}
+.gr3:hover {
+  background-color: green;
+  transition: 1s;
+}
+.gr4:hover {
+  background-color: green;
+  transition: 1s;
+}
+.gr5:hover {
+  background-color: green;
+  transition: 1s;
+}
+.gr6:hover {
+  background-color: green;
+  transition: 1s;
+}
+.gr7:hover {
+  background-color: green;
+  transition: 1s;
+}
+.gr8:hover {
+  background-color: green;
+  transition: 1s;
+}
+.gr9:hover {
+  background-color: green;
+  transition: 1s;
+}
+.gr10:hover {
+  background-color: green;
+  transition: 1s;
+}
+a {
+  text-decoration: none;
+}
+/*
+Body Classes
+----------------------------------------------------------------------------------
+*/
+main {
+  height: 1100px;
+  background-image: linear-gradient(to right, rgba(46, 67, 153, .7), rgba(176, 176, 176, .5)), url(https://images.unsplash.com/photo-1507679799987-c73779587ccf?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1351&q=80);
+  background-size: cover;
+  position: relative;
+}
+.middle-box {
+  display: flex;
+  border: 4px solid black;
+  width: 45%;
+  height: 30%;
+  position: absolute;
+  top: 30%;
+  left: 28%;
+  background-color: rgba(46, 67, 153, .7);
+  align-items: center;
+  justify-content: center;
+}
+.middle-text {
+  text-align: center;
+  align-content: center;
 }
