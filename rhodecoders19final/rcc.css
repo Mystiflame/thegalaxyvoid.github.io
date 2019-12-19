@@ -73,13 +73,17 @@ header {
   width: 100%;
 }
 img {
-  height: 150px;
+  height: 115px;
 }
 .navText {
   color: black;
   font-size: 1.5em;
   font-family: 'PT Sans Narrow', monospace;
   font-weight: bolder;
+}
+.gr1:hover {
+  background-color: red;
+  transition: 1s;
 }
 .gr2:hover {
   background-color: green;
@@ -145,4 +149,19 @@ main {
 .middle-text {
   text-align: center;
   align-content: center;
+}
+.text {
+  font-variant: small-caps;
+}
+
+.a {
+  font-style: italic;
+  font-size: 1.1em;
+}
+.b {
+  font-size: 1.2em;
+}
+
+#mainIcon {
+  height: 120px;
 }
