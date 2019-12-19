@@ -1,22 +1,73 @@
 <!DOCTYPE html>
-  <html>
-  <head>
-  <meta charset="utf-8">
-  <link rel="stylesheet" type="text/css" href="rcc.css">
-  <link rel="shortcut icon" href="https://thegalaxyvoid.github.io/dpwmicon.svg">
-  <link href="https://fonts.googleapis.com/css?family=PT+Sans+Narrow&display=swap" rel="stylesheet">
-  <link href="https://fonts.googleapis.com/css?family=Archivo+Narrow&display=swap" rel="stylesheet">
-  <title>Don't Play with Me - Home</title>
-  </head>
-    <body>
-    <!--
+<html>
+
+<head>
+	<meta charset="utf-8">
+	<link rel="stylesheet" type="text/css" href="rcc.css">
+	<link rel="shortcut icon" href="https://thegalaxyvoid.github.io/dpwmicon.svg">
+	<link href="https://fonts.googleapis.com/css?family=PT+Sans+Narrow&display=swap" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Archivo+Narrow&display=swap" rel="stylesheet">
+	<title>Don't Play with Me - Home</title>
+</head>
+
+<body>
+	<!--------------------------------------------------------------------
     Header
-    -->
-    <header>
-    <div class="long-box">
-    <h1>Don't Play with Me.</h1>
-    <p>Video Game Extraordinare</p>
+    ------------------------------------------------------------------->
+	<header>
+		<div class="box gr1">
+      <img src="dayTheme.png">
+      </div>
+      <div class="box gr2">
+        <a href="#">
+        <p class="navText">Contact</p>
+        </a>
+      </div>
+        <a href="#">
+      <div class="box gr3">
+      <p class="navText">Photo Gallery</p>
+        </a>
+      </div>
+      <a href="#">
+      <div class="box gr4">
+      <p class="navText">Who Are We?</p>
+      </a>
+      </div>
+      <a href="#">
+      <div class="box gr5">
+      <p class="navText">Blog</p>
+      </a>
+      </div>
+      <a href="#">
+      <div class="box gr6">
+      <p class="navText">Locations</p>
+      </a>
+      </div>
+      <a href="#">
+      <div class="box gr7">
+      <p class="navText">filler</p>
+      </a>
+      </div>
+      <a href="#">
+      <div class="box gr8">
+      <p class="navText">What do we Do?</p>
+      </a>
+      </div>
+      <a href="#">
+      <div class="box gr9">
+      <p class="navText">Staff List</p>
+      </a>
+      </div>
+      <a href="#">
+      <div class="box gr10">
+      <img src="dpwmicon.svg">
+      </a>
+      </div>
+	</header>
+  <main>
+    <div class="middle-box">
+      <h1 class="middle-text">Don't Play with Us.</div>
     </div>
-    </header>
-    </body>
-  </html>
+    </main>
+</body>
+</html>
